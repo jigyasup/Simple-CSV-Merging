@@ -60,5 +60,5 @@ http://pandas.pydata.org/pandas-docs/stable/install.html
 
 The solution should be up
 To run the script
-  i)  open your terminal
-  ii) type "python solution.py "
+i)  open your terminal
+ii) type "python solution.py "

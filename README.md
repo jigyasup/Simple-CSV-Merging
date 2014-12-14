@@ -50,15 +50,13 @@ The solution of the problem is done in Python and using Pandas package.
 
 
 To run the script you should have python 2.7 installed in your machine. Along with Python your machine should have pandas package installed.
-To install Python on your machine 
-1. For ubuntu and mac user you have already python installed in your machine . No worries for python. :D 
-2. For Windows user go to https://www.python.org/downloads/ 
+    To install Python on your machine 
+    1. For ubuntu and mac user you have already python installed in your machine . No worries for python. :D 
+    2. For Windows user go to https://www.python.org/downloads/ 
 
 To install Pandas 
 http://pandas.pydata.org/pandas-docs/stable/install.html
 
-
-The solution should be up
-To run the script
-    i)  open your terminal
-    ii) type "python solution.py "
+    To run the script
+      i)  open your terminal
+      ii) type "python solution.py "

@@ -21,6 +21,7 @@ lati = []
 
 #eliminating the amount having null value with 0
 final_output['Amount'].fillna(0, inplace=True)
+final_output['awardeeLocation'].fillna('', inplace=True)
 
 #calculating the latitude and longitude also checking the status of contract to calulate the total sum
 for i in range(0,row_len):

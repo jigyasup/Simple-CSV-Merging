@@ -1,5 +1,7 @@
-yipl-problem
-The following project is done to solve the problem provided by  Young Innovation Prv Ltd 
+YIPL Challenge
+
+The following project is done to solve the challenge provided by  Young Innovation Prv Ltd 
+
 The details about problem is 
 You have two sets of csv files - one containing the contracts data and the other containing the awarded contracts. Your task is to combine the two csv files using the common field (contractName) and compute the total amount of closed awarded contracts. The combined csv should also include one more field - latlon which contains the geocoded value of the contract location, if available. Use the API (from google, osm, or others) to geocode the location.
 
@@ -46,16 +48,20 @@ The output file will contain the fields from both files (blank values if the con
 
 After the file is created, read the output file and show the total amount of awarded contracts which have been closed. 700,000 in our case.
 
-The solution of the problem is done in Python and using Pandas package. 
+The solution of the problem is done in Python using Pandas package and geopy module . 
+The Output of the project is final_output.csv
 
 
-To run the script you should have python 2.7 installed in your machine. Along with Python your machine should have pandas package installed.
+To run the script you should have python 2.7 installed in your machine. Along with Python your machine should have pandas package and geopy module installed.
     To install Python on your machine 
-    1. For ubuntu and mac user you have already python installed in your machine . No worries for python. :D 
-    2. For Windows user go to https://www.python.org/downloads/ 
+        1. For ubuntu and mac user you have already python installed in your machine . No worries for python. :D 
+        2. For Windows user go to https://www.python.org/downloads/ 
 
-To install Pandas 
+    To install Pandas 
 http://pandas.pydata.org/pandas-docs/stable/install.html
+    
+    To install geopy
+https://pypi.python.org/pypi/geopy
 
     To run the script
       i)  open your terminal

@@ -1,6 +1,4 @@
-YIPL Challenge
 
-The following project is done to solve the challenge provided by  Young Innovation Prv Ltd 
 
 The details about problem is 
 You have two sets of csv files - one containing the contracts data and the other containing the awarded contracts. Your task is to combine the two csv files using the common field (contractName) and compute the total amount of closed awarded contracts. The combined csv should also include one more field - latlon which contains the geocoded value of the contract location, if available. Use the API (from google, osm, or others) to geocode the location.
